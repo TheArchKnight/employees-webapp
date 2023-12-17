@@ -1,1 +1,1 @@
-web: gunicorn employees/wsgi.py
+web: gunicorn employees.wsgi
