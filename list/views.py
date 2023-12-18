@@ -2,7 +2,7 @@ from django.views.generic import ListView
 from .models import Employee
 # Create your views here.
 
-boss = "Olive Longfellow"
+boss = "Dave Zuckerberg"
 
 class list_employees(ListView):
   model = Employee
